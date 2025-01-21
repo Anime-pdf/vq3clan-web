@@ -1,3 +1,18 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+header
+{
+    @apply flex justify-between w-9/12 m-auto py-2.5;
+}
+
+.header_left
+{
+    @apply flex justify-around;
+}
+
+.header_element
+{
+    @apply mx-6;
+}
